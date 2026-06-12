@@ -1,16 +1,77 @@
-# React + Vite
+# Konserwacja Wro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, static academic journal website built with React and Vite.
 
-Currently, two official plugins are available:
+This project is a UI reconstruction inspired by traditional university journal systems, redesigned for modern performance and static deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Academic journal layout (WIP)
+- Static site architecture (university server friendly)
+- React-based component system
+- Hash-based routing for reliable static hosting
+- Archive-ready structure for journal issues and articles
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- React
+- Vite
+- React Router (HashRouter)
+- Git / GitHub for version control
+
+---
+
+## 📁 Project Structure (WIP)
+
+src/
+components/
+pages/
+data/
+App.jsx
+main.jsx
+
+---
+
+## 🎯 Purpose
+
+This project is part portfolio work and part experimental UI system for academic publishing interfaces.
+
+Focus areas:
+
+- layout systems
+- typography hierarchy
+- static content architecture
+- journal-style navigation patterns
+
+---
+
+## 📦 Run Locally
+
+```bash
+npm install
+npm run dev
+
+---
+
+## 🏗 Build
+
+npm run build
+
+Output goes to:
+
+dist/
+
+---
+
+## Status
+
+Early development — layout system and navigation structure in progress.
+
+👤 Author
+
+zyndadawid
+```
