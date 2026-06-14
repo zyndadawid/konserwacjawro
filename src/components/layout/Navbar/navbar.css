@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f7f6f2;
+  color: #1a1a1a;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* TOP HEADER */
+.navbar-top {
+  border-bottom: 1px solid #ddd;
+  padding: 18px 0;
+  background: #fff;
+}
+
+.journal-title {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.journal-subtitle {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* NAVIGATION BAR */
+.navbar-bottom {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-inner {
+  display: flex;
+  gap: 18px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #222;
+  padding: 6px 4px;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #222;
+}
+
+/* required for dropdown positioning */
+.nav-item {
+  position: relative;
+  display: inline-block;
+}
+
+/* dropdown hidden by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background: white;
+  border: 1px solid #ddd;
+  min-width: 200px;
+  z-index: 1000;
+
+  padding: 8px 0;
+}
+
+/* show on hover */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* dropdown links */
+.dropdown-link {
+  display: block;
+  padding: 8px 14px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  white-space: nowrap;
+}
+
+.dropdown-link:hover {
+  background: #f3f3f3;
+}

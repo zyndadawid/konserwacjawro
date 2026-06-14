@@ -1,5 +1,20 @@
-function App() {
-  return <div>Journal system ready</div>;
-}
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/layout/Layout";
 
-export default App;
+// import Home from "./pages/Home";
+// import Archive from "./pages/Archive";
+// import Article from "./pages/Article";
+
+export default function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          {/* <Route index element={<Home />} />
+          <Route path="archive" element={<Archive />} />
+          <Route path="article/:id" element={<Article />} /> */}
+        </Route>
+      </Routes>
+    </HashRouter>
+  );
+}
