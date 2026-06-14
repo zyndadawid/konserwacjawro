@@ -12,58 +12,63 @@ export default function Navbar() {
 
       <nav className="navbar-bottom">
         <div className="container nav-inner">
-          {/* O CZASOPIŚMIE */}
+          {/* HOME */}
+          <div class="nav-item">
+            <a href="#/" className="nav-link">
+              Strona główna
+            </a>
+          </div>
+          {/* ABOUT DROPDOWN */}
           <div className="nav-item dropdown">
             <span className="nav-link">O czasopiśmie</span>
             <div className="dropdown-menu">
-              <a href="#/" className="dropdown-link">
+              <a href="#/about" className="dropdown-link">
+                O nas
+              </a>
+              <a href="#/scope" className="dropdown-link">
                 Cele i zakres
               </a>
-              <a href="#/" className="dropdown-link">
+              <a href="#/editor-in-chief" className="dropdown-link">
                 Redaktor naczelny
               </a>
-              <a href="#/" className="dropdown-link">
+              <a href="#/editorial-board" className="dropdown-link">
                 Rada naukowa
               </a>
-              <a href="#/" className="dropdown-link">
-                Recenzja
+              <a href="#/review-process" className="dropdown-link">
+                Proces recenzji
               </a>
             </div>
           </div>
-
-          {/* AKTUALNY NUMER */}
+          {/* CURRENT ISSUE */}
           <div className="nav-item dropdown">
             <span className="nav-link">Aktualny numer</span>
             <div className="dropdown-menu">
-              <a href="#/" className="dropdown-link">
-                Tom 1 (2026)
+              <a href="#/current-issue" className="dropdown-link">
+                Najnowszy numer
               </a>
-              <a href="#/" className="dropdown-link">
+              <a href="#/articles" className="dropdown-link">
                 Artykuły
               </a>
             </div>
           </div>
-
-          {/* ARCHIWUM */}
-          <div className="nav-item dropdown">
-            <span className="nav-link">Archiwum</span>
-            <div className="dropdown-menu">
-              <a href="#/archive" className="dropdown-link">
-                Wszystkie numery
-              </a>
-              <a href="#/" className="dropdown-link">
-                Wyszukiwanie
-              </a>
-            </div>
+          {/* ARCHIVE */}
+          <div class="nav-item">
+            <a href="#/archive" className="nav-link">
+              Archiwum
+            </a>
           </div>
-
-          {/* POZOSTAŁE */}
-          <a href="#/" className="nav-link">
-            Dla autorów
-          </a>
-          <a href="#/" className="nav-link">
-            Kontakt
-          </a>
+          {/* AUTHORS */}
+          <div class="nav-item">
+            <a href="#/authors" className="nav-link">
+              Dla autorów
+            </a>
+          </div>
+          {/* CONTACT */}
+          <div class="nav-item">
+            <a href="#/contact" className="nav-link">
+              Kontakt
+            </a>
+          </div>
         </div>
       </nav>
     </header>
