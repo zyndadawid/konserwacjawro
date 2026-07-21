@@ -1,0 +1,29 @@
+.footer {
+  border-top: 1px solid #ddd;
+  padding: 40px 0;
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-block h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 4px 0;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

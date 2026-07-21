@@ -1,0 +1,77 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.page-title {
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.profile-grid {
+  border-top: 1px solid #d8d8d8;
+}
+
+.profile-item {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 30px;
+
+  padding: 18px 0;
+
+  border-bottom: 1px solid #e6e6e6;
+
+  align-items: start;
+}
+
+.profile-item strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.profile-item span {
+  color: #555;
+  line-height: 1.6;
+}
+
+.issue-section {
+    margin-top: 50px;
+}
+
+.issue-section h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    border-bottom: 2px solid #ddd;
+}
+
+.empty-section {
+    color: #888;
+    font-style: italic;
+}
+
+.pdf-link {
+  display: inline-block;
+
+  margin: 20px 0 40px;
+  padding: 12px 20px;
+
+  border: 1px solid #222;
+  border-radius: 4px;
+
+  color: #222;
+  text-decoration: none;
+
+  font-size: 0.95rem;
+  font-weight: 500;
+
+  transition: all 0.2s ease;
+}
+
+.pdf-link:hover {
+  background: #222;
+  color: white;
+}
