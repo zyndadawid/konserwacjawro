@@ -1,8 +1,13 @@
+import DocumentDownload from "../components/ui/DocumentDownload";
+
 export default function AuthorGuidelines() {
   return (
-    <div>
-      <h1>Autorzy</h1>
-      <p>Tu są wytyczne dla autorów</p>
-    </div>
+    <main className="page">
+      <h1 className="page-title">Autorzy</h1>
+
+      <DocumentDownload href="/documents/KonserwacjaWro_dla autorów_2026.docx">
+        Pobierz wytyczne dla autorów
+      </DocumentDownload>
+    </main>
   );
 }
