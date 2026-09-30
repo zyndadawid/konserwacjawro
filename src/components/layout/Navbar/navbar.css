@@ -111,3 +111,9 @@ body {
   height: 2px;
   background: #222;
 }
+
+.navbar-logo {
+  width: auto;
+  height: 95px;
+  display: block;
+}

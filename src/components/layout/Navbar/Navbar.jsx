@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { navigation } from "../../../data/navigation";
+import logo from "../../../assets/kw-logo.svg";
 import "./navbar.css";
 
 export default function Navbar() {
@@ -14,8 +15,9 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-top">
         <div className="container">
-          <div className="journal-title">KonserwacjaWRO</div>
-          <div className="journal-subtitle">Czasopismo naukowe</div>
+          {/* <div className="journal-title">KonserwacjaWRO</div>
+          <div className="journal-subtitle">Czasopismo naukowe</div> */}
+          <img src={logo} alt="KonserwacjaWRO" className="navbar-logo" />
         </div>
       </div>
 
