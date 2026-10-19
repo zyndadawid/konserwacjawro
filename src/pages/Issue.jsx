@@ -21,7 +21,13 @@ export default function Issue() {
       <h1 className="page-title">
         Nr {issue.number}, {issue.year}
       </h1>
-
+      {issue.cover && (
+        <img
+          src={issue.cover}
+          alt={`Okładka numeru ${issue.number}, ${issue.year}`}
+          className="issue-cover"
+        />
+      )}
       {issue.pdf && (
         <p>
           <a className="pdf-link" href={issue.pdf}>
@@ -36,7 +42,19 @@ export default function Issue() {
 
           {section.articles.length > 0 ? (
             section.articles.map((article) => (
-              <ArticleCard key={article.id} article={article} />
+              <>
+                <ArticleCard key={article.id} article={article} />
+                {article.pdf && (
+                  <a
+                    className="pdf-link"
+                    href={article.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    📄 Pobierz artykuł (PDF)
+                  </a>
+                )}
+              </>
             ))
           ) : (
             <p className="empty-section">Brak artykułów.</p>

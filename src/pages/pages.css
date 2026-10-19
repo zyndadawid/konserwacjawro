@@ -75,3 +75,10 @@
   background: #222;
   color: white;
 }
+
+.issue-cover {
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
