@@ -388,16 +388,16 @@ export const issues = [
     slug: "issue-2-2024",
     number: 2,
     year: 2024,
-    pdf: "/media/issues/issue-1-2022.pdf",
-
+     pdf: "/issues/issue-2-2024/cover.pdf",
+    cover: "/issues/issue-2-2024/cover.webp",
     sections: [
       {
         id: "introduction",
-        title: "Wstęp",
+        title: "",
 
         articles: [
           {
-            id: "introduction-2022",
+            id: "wstep-2024",
 
             DOI: "",
 
@@ -405,15 +405,15 @@ export const issues = [
 
             authors: [
               {
-                id: "author-001",
-                name: "Jan Kowalski",
+                id: "author-007",
+                name: "Michał Matuszczyk",
               },
             ],
 
             abstract: "",
             keywords: [],
 
-            pdf: "",
+            pdf: "/issues/issue-2-2024/wstep-2024.pdf",
           },
         ],
       },
@@ -425,27 +425,80 @@ export const issues = [
 
         articles: [
           {
-            id: "article-title",
+            id: "w-poszukiwaniu-oryginalu",
 
             DOI: "",
 
-            title: "Tytuł artykułu",
+            title: "W poszukiwaniu oryginału. Witraże średniowieczne ze zbiorów Muzeum Okręgowego w Toruniu",
 
             authors: [
               {
                 id: "author-001",
-                name: "Jan Kowalski",
-              },
-              {
-                id: "author-002",
-                name: "Janina Kowalska",
-              },
+                name: "Marcin Czeski",
+              }
             ],
 
             abstract: "",
             keywords: [],
 
-            pdf: "",
+            pdf: "/issues/issue-2-2024/I/w-poszukiwaniu-oryginalu.pdf",
+          },
+           {
+            id: "manganem-malowane",
+
+            DOI: "",
+
+            title: "Manganem malowane. Holenderskie kafle o tematyce biblijnej w kolegiacie w Pułtusku*",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Antonina Jamska",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/I/manganem-malowane.pdf",
+          },
+           {
+            id: "walerian-krycinski-jako-odnowiciel",
+
+            DOI: "",
+
+            title: "Walerian Kryciński jako odnowiciel ceramicznych tradycji Pokucia",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Maria Nitka",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/I/walerian-krycinski-jako-odnowiciel.pdf",
+          },
+           {
+            id: "artysta-w-petli-czasu",
+
+            DOI: "",
+
+            title: "Artysta w pętli czasu. Szkice o twórczości Waltera Sutkowskiego (1890—1983)",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Ewa Łukaszewicz-Jędrzejewska",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/I/artysta-w-petli-czasu.pdf",
           },
         ],
       },
@@ -456,7 +509,104 @@ export const issues = [
         title:
           "II. Prezentacja badań i realizacji konserwatorskich",
 
-        articles: [],
+        articles: [   
+          {
+            id: "historyczne-i-nowoczesne-techniki-zlocenia-szkla",
+
+            DOI: "",
+
+            title: "Historyczne i nowoczesne techniki złocenia szkła",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Katarzyna Wantuch",
+              },{
+                id: "author-001",
+                name: "Natalia Moszak",
+              },{
+                id: "author-001",
+                name: "Eliza Głowska",
+              },{
+                id: "author-001",
+                name: "Adam Włodarczyk",
+              },{
+                id: "author-001",
+                name: "Aleksandra Flis",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/II/historyczne-i-nowoczesne-techniki-zlocenia-szkla.pdf",
+          },   {
+            id: "ferrum-divisorium-mnicha-teofila",
+
+            DOI: "",
+
+            title: "Ferrum divisorium mnicha Teofila. Próba zrekonstruowania warsztatu średniowiecznego witrażysty",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Katarzyna Czaja-Arkabus",
+              },{
+                id: "author-001",
+                name: "Agata Środa",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/II/ferrum-divisorium-mnicha-teofila.pdf",
+          },   {
+            id: "rokokowy-zyrandol-z-palacu-krolewskiego-we-wroclawiu",
+
+            DOI: "",
+
+            title: "Rokokowy żyrandol z Pałacu Królewskiego we Wrocławiu. Prace badawcze i konserwatorsko-restauratorskie w zarysie",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Katarzyna Wantuch",
+              },{
+                id: "author-001",
+                name: "Natalia Moszak",
+              },{
+                id: "author-001",
+                name: "Marek Weselski",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/II/rokokowy-zyrandol-z-palacu-krolewskiego-we-wroclawiu.pdf",
+          },   {
+            id: "problematyka-konserwatorska-ceramicznej-elewacji-domu-handlowego-renoma",
+
+            DOI: "",
+
+            title: "Problematyka konserwatorska ceramicznej elewacji domu handlowego Renoma",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Maria Gąsior",
+              },{
+                id: "author-001",
+                name: "Katarzyna Polak",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/II/problematyka-konserwatorska-ceramicznej-elewacji-domu-handlowego-renoma.pdf",
+          },],
       },
 
 
@@ -464,7 +614,63 @@ export const issues = [
         id: "conservation-theory",
         title: "III. Teoria konserwacji",
 
-        articles: [],
+        articles: [
+          {
+            id: "kopia-ceramiki-w-typie-satsuma-technologia-i-realizacja",
+
+            DOI: "",
+
+            title: "Kopia ceramiki w typie satsuma — technologia i realizacja",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Patrycja Niemiec",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/III/kopia-ceramiki-w-typie-satsuma-technologia-i-realizacja.pdf",
+          },
+          {
+            id: "identyfikacja-motywu-floralnego-wybrane-problemy",
+
+            DOI: "",
+
+            title: "Identyfikacja motywu floralnego — wybrane problemy",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Ewa Łukaszewicz-Jędrzejewska",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/III/identyfikacja-motywu-floralnego-wybrane-problemy.pdf",
+          },{
+            id: "procedury-postepowania-zwiazane-z-konserwacja",
+
+            DOI: "",
+
+            title: "Procedury postępowania związane z konserwacją i restauracją szklanych dzieł sztuki współczesnej1*",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Kordian Szymon Chromik",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/III/procedury-postepowania-zwiazane-z-konserwacja.pdf",
+          }],
       },
 
 
@@ -472,7 +678,104 @@ export const issues = [
         id: "reports",
         title: "IV. Relacje",
 
-        articles: [],
+        articles: [{
+            id: "relacja-z-konkursu-i-wystawy-pokonkursowej-najlepsze-dyplomy",
+
+            DOI: "",
+
+            title: "Relacja z Konkursu i Wystawy Pokonkursowej Najlepsze dyplomy na kierunku Konserwacja i Restauracja Dzieł Sztuki w Polsce",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Katarzyna Stępień",
+              },
+               {
+                id: "author-001",
+                name: "Michał Matuszczyk",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/IV/relacja-z-konkursu-i-wystawy-pokonkursowej-najlepsze-dyplomy.pdf",
+          },
+        {
+            id: "miedzynarodowy-walbrzyski-plener-ceramiczny",
+
+            DOI: "",
+
+            title: "Międzynarodowy Wałbrzyski Plener Ceramiczny",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Łukasz Karkoszka",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/IV/miedzynarodowy-walbrzyski-plener-ceramiczny.pdf",
+          },
+        {
+            id: "qunszt-w-dazeniu-do-finezji-i-wirtuozerii",
+
+            DOI: "",
+
+            title: "Qunszt — w dążeniu do finezji i wirtuozerii",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Krzysztof Rozpondek",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/IV/qunszt-w-dazeniu-do-finezji-i-wirtuozerii.pdf",
+          },
+        {
+            id: "alchemia-na-dachu-warszawy",
+
+            DOI: "",
+
+            title: "Alchemia na dachu Warszawy",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Małgorzata Dajewska",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/IV/alchemia-na-dachu-warszawy.pdf",
+          },{
+            id: "a-moze-konserwacja-wystawa-pracownikow-i-studentow-katedry-konserwacji-i-restauracji-dziel-sztuki",
+
+            DOI: "",
+
+            title: "A może konserwacja? Wystawa pracowników i studentów Katedry Konserwacji i Restauracji Dzieł Sztuki, Wydział Ceramiki i Szkła, ASP we Wrocławiu, Galeria „Debiut”, Państwowe Liceum Sztuk Plastycznych im. Magdaleny Abakanowicz w Gdyni, 16.02.2024—14.03.2024 r.",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Michał Matuszczyk",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/IV/a-moze-konserwacja-wystawa-pracownikow-i-studentow-katedry-konserwacji-i-restauracji-dziel-sztuki.pdf",
+          }],
       },
 
 
@@ -480,7 +783,43 @@ export const issues = [
         id: "reviews",
         title: "V. Recenzje",
 
-        articles: [],
+        articles: [{
+            id: "gdyby-niezrealizowane-wizje-nowoczesnego-wroclawia",
+
+            DOI: "",
+
+            title: "Gdyby. Niezrealizowane wizje nowoczesnego Wrocławia, Wrocław, Muzeum Architektury, 18.01—28.04.2024",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Ewa Łukaszewicz-Jędrzejewska",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/V/gdyby-niezrealizowane-wizje-nowoczesnego-wroclawia.pdf",
+          },{
+            id: "recenzja-katalogu-b-banas-szklane-zyciorysy-polskie-projektantki-szkla-1945-2020",
+
+            DOI: "",
+
+            title: "Recenzja katalogu B. Banaś Szklane życiorysy. Polskie projektantki szkła (1945—2020)",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Michał Matuszczyk",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/V/recenzja-katalogu-b-banas-szklane-zyciorysy-polskie-projektantki-szkla-1945-2020.pdf",
+          }],
       },
 
 
@@ -488,7 +827,25 @@ export const issues = [
         id: "chronicle",
         title: "VI. Kronika",
 
-        articles: [],
+        articles: [{
+            id: "zajecia-terenowe-katedry-konserwacji-i-restauracji-ceramiki-i-szkla",
+
+            DOI: "",
+
+            title: "Zajęcia terenowe Katedry Konserwacji i Restauracji Ceramiki i Szkła, prowadzone w latach 2009—2023 na zamku w Międzylesiu",
+
+            authors: [
+              {
+                id: "author-001",
+                name: "Piotr Romiński",
+              }
+            ],
+
+            abstract: "",
+            keywords: [],
+
+            pdf: "/issues/issue-2-2024/VI/zajecia-terenowe-katedry-konserwacji-i-restauracji-ceramiki-i-szkla.pdf",
+          }],
       },
     ],
   }
