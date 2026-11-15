@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  min-width: 0;
 }
 
 .footer-block h4 {
@@ -26,4 +27,21 @@
 
 .footer-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 24px 12px;
+    margin-top: 40px;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-block {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
 }
