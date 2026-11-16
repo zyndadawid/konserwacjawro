@@ -140,3 +140,78 @@
     object-fit: contain;
   }
 }
+.policy-page p {
+  margin: 0 0 1.25rem;
+  line-height: 1.7;
+}
+
+.policy-page h2 {
+  margin: 2rem 0 1rem;
+}
+
+.publication-ethics {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d8d8d8;
+}
+
+.policy-page h3,
+.policy-page h4 {
+  margin: 1.5rem 0 0.75rem;
+  line-height: 1.4;
+}
+
+.policy-page ul,
+.policy-page ol {
+  padding-left: 1.5rem;
+  margin: 0 0 1.25rem;
+  line-height: 1.7;
+}
+
+.policy-page li + li {
+  margin-top: 0.5rem;
+}
+
+.contact-details {
+  max-width: 720px;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 24px;
+  line-height: 1.7;
+}
+
+.contact-details h2 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+}
+
+.contact-details p,
+.contact-details address {
+  margin: 0 0 20px;
+}
+
+.contact-journal {
+  font-weight: 600;
+}
+
+.contact-details address {
+  font-style: normal;
+}
+
+.contact-email {
+  display: inline-block;
+  max-width: 100%;
+  padding: 8px 0;
+  color: #222;
+  font-weight: 600;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+.contact-email:hover {
+  text-decoration-thickness: 2px;
+}
+
+.contact-email:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}

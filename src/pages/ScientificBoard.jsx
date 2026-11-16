@@ -4,7 +4,7 @@ import "./pages.css";
 export default function ScientificBoard() {
   return (
     <main className="page">
-      <h1 className="page-title">Zespół redakcyjny</h1>
+      <h1 className="page-title">Rada Naukowa / Academic Advisory Board</h1>
 
       <article className="profile-grid">
         {scientificBoardData.map((member) => (

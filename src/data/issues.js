@@ -848,5 +848,374 @@ export const issues = [
           }],
       },
     ],
-  }
+  },
+  {
+    "slug": "issue-3-2026",
+    "number": 3,
+    "year": 2026,
+    "pdf": "/issues/issue-3-2026/cover.pdf",
+    "contentsPdf": "/issues/issue-3-2026/spis-tresci.pdf",
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "",
+        "articles": [
+          {
+            "id": "introduction-2026",
+            "DOI": "",
+            "title": "Wstęp",
+            "authors": [
+              {
+                "id": "michal-matuszczyk",
+                "name": "Michał Matuszczyk"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/wstep-2026.pdf"
+          }
+        ]
+      },
+      {
+        "id": "cultural-historical-studies",
+        "title": "I. Studia kulturowo-historyczne",
+        "articles": [
+          {
+            "id": "mozaika-problemow",
+            "DOI": "",
+            "title": "Mozaika problemów. W kwestii pochodzenia i obrzędowego znaczenia czarki ze szkła mozaikowego z grobu „książęcego” I we Wrocławiu-Zakrzowie",
+            "authors": [
+              {
+                "id": "pawel-rzeznik",
+                "name": "Paweł Rzeźnik"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/I/mozaika-problemow.pdf"
+          },
+          {
+            "id": "o-typologii-witrazy",
+            "DOI": "",
+            "title": "O typologii witraży",
+            "authors": [
+              {
+                "id": "marcin-czeski",
+                "name": "Marcin Czeski"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/I/o-typologii-witrazy.pdf"
+          },
+          {
+            "id": "badania-ceramiki-w-kutach",
+            "DOI": "",
+            "title": "Badania ceramiki w Kutach w świetle jej typologii od końca XIX do początku XXI wieku",
+            "authors": [
+              {
+                "id": "romana-motyl",
+                "name": "Romana Motyl"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/I/badania-ceramiki-w-kutach.pdf"
+          }
+        ]
+      },
+      {
+        "id": "conservation-restoration",
+        "title": "II. Realizacje konserwatorsko-restauratorskie",
+        "articles": [
+          {
+            "id": "rekonstrukcja-i-trwalosc-uzupelnien",
+            "DOI": "",
+            "title": "Rekonstrukcja i trwałość uzupełnień. Wybrane przykłady konserwacji ceramiki muzealnej ze zbiorów Muzeum – Zamku w Łańcucie",
+            "authors": [
+              {
+                "id": "aleksandra-gralinska-grubecka",
+                "name": "Aleksandra Gralińska-Grubecka"
+              },
+              {
+                "id": "dominika-szmurlo",
+                "name": "Dominika Szmurło"
+              },
+              {
+                "id": "gabriela-wisniewska",
+                "name": "Gabriela Wiśniewska"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/II/rekonstrukcja-i-trwalosc-uzupelnien.pdf"
+          },
+          {
+            "id": "aranzacja-i-konserwacja-trzech-renesansowych-piecow",
+            "DOI": "",
+            "title": "Aranżacja i konserwacja trzech renesansowych pieców na I piętrze w Kamienicy Krauzowskiej w Krakowie. Edukacyjny przykład procesu reprojektowego",
+            "authors": [
+              {
+                "id": "bozena-boba-dyga",
+                "name": "Bożena Boba-Dyga"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/II/aranzacja-i-konserwacja-trzech-renesansowych-piecow.pdf"
+          },
+          {
+            "id": "konserwacja-i-restauracja-oraz-propozycja-mobilnego-montazu-pieca-kaflowego",
+            "DOI": "",
+            "title": "Konserwacja i restauracja oraz propozycja mobilnego montażu pieca kaflowego z kamienicy przy ulicy Traugutta 35b we Wrocławiu",
+            "authors": [
+              {
+                "id": "marcelina-siwik",
+                "name": "Marcelina Siwik"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/II/konserwacja-i-restauracja-oraz-propozycja-mobilnego-montazu-pieca-kaflowego.pdf"
+          }
+        ]
+      },
+      {
+        "id": "conservation-research",
+        "title": "III. Badania konserwatorskie",
+        "articles": [
+          {
+            "id": "konserwacja-i-restauracja-kalamarza-wykonanego-w-technice-palnikowej",
+            "DOI": "",
+            "title": "Konserwacja i restauracja kałamarza wykonanego w technice palnikowej. Studium zastosowania wybranych żeli utwardzanych promieniowaniem ultrafioletowym",
+            "authors": [
+              {
+                "id": "weronika-sobczyk",
+                "name": "Weronika Sobczyk"
+              },
+              {
+                "id": "michal-matuszczyk",
+                "name": "Michał Matuszczyk"
+              },
+              {
+                "id": "katarzyna-wantuch",
+                "name": "Katarzyna Wantuch"
+              },
+              {
+                "id": "natalia-moszak-kaczmarek",
+                "name": "Natalia Moszak-Kaczmarek"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/III/konserwacja-i-restauracja-kalamarza-wykonanego-w-technice-palnikowej.pdf"
+          },
+          {
+            "id": "imitacja-szkliwa-na-zabytkowej-cegle",
+            "DOI": "",
+            "title": "Imitacja szkliwa na zabytkowej cegle. Badania powłok akrylowo-uretanowych i akrylowych w warunkach ekspozycji zewnętrznej",
+            "authors": [
+              {
+                "id": "aleksandra-gralinska-grubecka",
+                "name": "Aleksandra Gralińska-Grubecka"
+              },
+              {
+                "id": "malgorzata-garlicka",
+                "name": "Małgorzata Garlicka"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/III/imitacja-szkliwa-na-zabytkowej-cegle.pdf"
+          }
+        ]
+      },
+      {
+        "id": "communications",
+        "title": "IV. Komunikaty",
+        "articles": [
+          {
+            "id": "historia-jednego-naczynia",
+            "DOI": "",
+            "title": "Historia jednego naczynia. Hiszpański dzbanek autorstwa Pabla Picassa",
+            "authors": [
+              {
+                "id": "piotr-rominski",
+                "name": "Piotr Romiński"
+              },
+              {
+                "id": "marek-weselski",
+                "name": "Marek Weselski"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/IV/historia-jednego-naczynia.pdf"
+          },
+          {
+            "id": "konserwacja-i-restauracja-kolekcji-witrazy",
+            "DOI": "",
+            "title": "Konserwacja i restauracja kolekcji witraży ze zbiorów Muzeum Architektury we Wrocławiu",
+            "authors": [
+              {
+                "id": "agata-sroda",
+                "name": "Agata Środa"
+              },
+              {
+                "id": "katarzyna-czaja-arkabus",
+                "name": "Katarzyna Czaja-Arkabus"
+              },
+              {
+                "id": "marcin-czeski",
+                "name": "Marcin Czeski"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/IV/konserwacja-i-restauracja-kolekcji-witrazy.pdf"
+          }
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "V. Relacje",
+        "articles": [
+          {
+            "id": "cztery-strony",
+            "DOI": "",
+            "title": "Cztery strony. Mozaika na budynku przy ul. Andrzeja Struga 17 w Łodzi",
+            "authors": [
+              {
+                "id": "lukasz-karkoszka",
+                "name": "Łukasz Karkoszka"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/V/cztery-strony.pdf"
+          },
+          {
+            "id": "polskie-szklo-artystyczne-w-bratyslawie",
+            "DOI": "",
+            "title": "Polskie szkło artystyczne w Bratysławie",
+            "authors": [
+              {
+                "id": "malgorzata-dajewska",
+                "name": "Małgorzata Dajewska"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/V/polskie-szklo-artystyczne-w-bratyslawie.pdf"
+          },
+          {
+            "id": "lab-oro-2025-ceramicy-w-oronsku",
+            "DOI": "",
+            "title": "LAB ORO 2025. Ceramicy w Orońsku",
+            "authors": [
+              {
+                "id": "krzysztof-rozpondek",
+                "name": "Krzysztof Rozpondek"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/V/lab-oro-2025-ceramicy-w-oronsku.pdf"
+          },
+          {
+            "id": "granice-podobienstwa",
+            "DOI": "",
+            "title": "Granice podobieństwa. Dwie ontologie formy: Katarzyna Koczyńska-Kielan i Ewa Zawadzka",
+            "authors": [
+              {
+                "id": "adriana-zimnowoda",
+                "name": "Adriana Zimnowoda"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/V/granice-podobienstwa.pdf"
+          },
+          {
+            "id": "porcelana-jeszcze-inaczej",
+            "DOI": "",
+            "title": "Porcelana jeszcze Inaczej",
+            "authors": [
+              {
+                "id": "bozena-sacharczuk",
+                "name": "Bożena Sacharczuk"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/V/porcelana-jeszcze-inaczej.pdf"
+          },
+          {
+            "id": "relacja-z-przebiegu-iii-edycji-konkursu-i-wystawy-pokonkursowej-najlepsze-dyplomy",
+            "DOI": "",
+            "title": "Relacja z przebiegu III edycji konkursu i wystawy pokonkursowej Najlepsze dyplomy na kierunku Konserwacja i Restauracja Dzieł Sztuki w Polsce oraz towarzyszącej im konferencji, Uniwersytet Mikołaja Kopernika w Toruniu, 12.12.2025–09.01.2026",
+            "authors": [
+              {
+                "id": "slawomir-a-kaminski",
+                "name": "Sławomir A. Kamiński"
+              },
+              {
+                "id": "michal-matuszczyk",
+                "name": "Michał Matuszczyk"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/V/relacja-z-przebiegu-iii-edycji-konkursu-i-wystawy-pokonkursowej-najlepsze-dyplomy.pdf"
+          }
+        ]
+      },
+      {
+        "id": "chronicle",
+        "title": "VI. Kronika",
+        "articles": [
+          {
+            "id": "historia-jednej-plytki",
+            "DOI": "",
+            "title": "Historia jednej płytki. Ceramiczne posadzki z pałacu w Wilkanowie",
+            "authors": [
+              {
+                "id": "piotr-rominski",
+                "name": "Piotr Romiński"
+              },
+              {
+                "id": "natalia-psujek",
+                "name": "Natalia Psujek"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/VI/historia-jednej-plytki.pdf"
+          },
+          {
+            "id": "inwentaryzacja-dokumentacja-konserwacja-i-rekonstrukcja",
+            "DOI": "",
+            "title": "Inwentaryzacja, dokumentacja, konserwacja i… rekonstrukcja? O działaniach pracowników Instytutu Sztuki PAN i Katedry Konserwacji i Restauracji Ceramiki i Szkła wrocławskiej ASP w Rzymie i Mentorelli",
+            "authors": [
+              {
+                "id": "barbara-jamska",
+                "name": "Barbara Jamska"
+              },
+              {
+                "id": "piotr-jamski",
+                "name": "Piotr Jamski"
+              },
+              {
+                "id": "maria-nitka",
+                "name": "Maria Nitka"
+              }
+            ],
+            "abstract": "",
+            "keywords": [],
+            "pdf": "/issues/issue-3-2026/VI/inwentaryzacja-dokumentacja-konserwacja-i-rekonstrukcja.pdf"
+          }
+        ]
+      }
+    ]
+  },
 ];

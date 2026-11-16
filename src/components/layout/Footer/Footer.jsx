@@ -24,7 +24,9 @@ export default function Footer() {
 
         <div className="footer-block">
           <h4>Kontakt</h4>
-          <p>{footer.email}</p>
+          <a href={`mailto:${footer.email}`} className="footer-link">
+            {footer.email}
+          </a>
           <p>{footer.copyright}</p>
         </div>
       </div>

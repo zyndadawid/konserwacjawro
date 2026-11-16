@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { useParams } from "react-router-dom";
 import { issues } from "../data/issues";
 
@@ -36,14 +37,22 @@ export default function Issue() {
         </p>
       )}
 
+      {issue.contentsPdf && (
+        <p>
+          <a className="pdf-link" href={issue.contentsPdf} target="_blank" rel="noopener noreferrer">
+            📄 Spis treści (PDF)
+          </a>
+        </p>
+      )}
+
       {issue.sections.map((section) => (
         <section key={section.id} className="issue-section">
-          <h2>{section.title}</h2>
+          {section.title && <h2>{section.title}</h2>}
 
           {section.articles.length > 0 ? (
             section.articles.map((article) => (
-              <>
-                <ArticleCard key={article.id} article={article} />
+              <Fragment key={article.id}>
+                <ArticleCard article={article} />
                 {article.pdf && (
                   <a
                     className="pdf-link"
@@ -54,7 +63,7 @@ export default function Issue() {
                     📄 Pobierz artykuł (PDF)
                   </a>
                 )}
-              </>
+              </Fragment>
             ))
           ) : (
             <p className="empty-section">Brak artykułów.</p>

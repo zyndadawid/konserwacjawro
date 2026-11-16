@@ -17,6 +17,7 @@ export const navigation = [
      children: [
       { label: "Nr 1, 2022", path: "/archive/issue-1-2022" },
       { label: "Nr 2, 2024", path: "/archive/issue-2-2024" },
+      { label: "Nr 3, 2026", path: "/archive/issue-3-2026" },
     ],
   },
   {
