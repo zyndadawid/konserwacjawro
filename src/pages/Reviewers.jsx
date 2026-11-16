@@ -17,7 +17,7 @@ export default function Reviewers() {
   return (
     <main className="page">
       <h1 className="page-title">
-        Nr {rewieversList.number}, {rewieversList.year}
+        Recenzenci: nr {rewieversList.number}, {rewieversList.year}
       </h1>
 
       {rewieversList.rewievers.length > 0 ? (

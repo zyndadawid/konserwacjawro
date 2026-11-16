@@ -855,6 +855,7 @@ export const issues = [
     "year": 2026,
     "pdf": "/issues/issue-3-2026/cover.pdf",
     "contentsPdf": "/issues/issue-3-2026/spis-tresci.pdf",
+    "cover": "/issues/issue-3-2026/cover.webp",
     "sections": [
       {
         "id": "introduction",

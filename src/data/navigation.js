@@ -32,6 +32,10 @@ export const navigation = [
       path: "/reviewers/2024",
     },
     {
+      label: "Lista recenzentów 2026",
+      path: "/reviewers/2026",
+    },
+    {
       label: "Formularz recenzji",
       path: "/reviewers/review-form",
     },

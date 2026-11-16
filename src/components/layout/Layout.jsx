@@ -1,17 +1,18 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
+import "./layout.css";
 
 export default function Layout() {
   return (
-    <div>
+    <div className="site-layout">
       <Navbar />
 
-      <div className="container" style={{ display: "flex", marginTop: "20px" }}>
-        <main style={{ flex: 1 }}>
+      <div className="container site-body">
+        <div className="site-content">
           <Outlet />
-          <Footer />
-        </main>
+        </div>
+        <Footer />
       </div>
     </div>
   );

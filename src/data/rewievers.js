@@ -4,15 +4,46 @@ export const rewieverLists = [
     number: 1,
     year: 2022,
     rewievers: [
-      "Jan Kowalski", "Janina Kowalska"
-   ]   
+      "prof. dr hab. Jacek Matusewicz",
+      "dr hab. Piotr Niemcewicz, prof. UMK",
+    ],
   },
-   {
+  {
     slug: "2024",
     number: 2,
     year: 2024,
     rewievers: [
-      "Jan Kowalski", "Janina Kowalska"
-   ]
+      "prof. dr hab. Elżbieta Basiul",
+      "dr Magdalena Furmanik-Kowalska",
+      "dr hab. Jerzy J. Kunicki-Goldfinger",
+      "prof. dr hab. Aleksandra Lipińska",
+      "dr Romana Motyl",
+      "dr hab. Piotr Niemcewicz, prof. UMK",
+      "prof. dr hab. Justyna Olszewska-Świetlik",
+      "dr Barbara Stolpiak",
+      "dr Joanna Utzig",
+    ],
+  },
+  {
+    slug: "2026",
+    number: 3,
+    year: 2026,
+    rewievers: [
+      "dr Aleksandra Gralińska-Grubecka",
+      "dr hab. Ewa Klekot, prof. Uniwersytetu SWPS",
+      "dr hab. Małgorzata Korpała, prof. PANS w Nysie",
+      "prof. dr hab. Jakub Lewicki",
+      "prof. dr hab. Jadwiga Łukaszewicz",
+      "prof. dr hab. Jacek Martusewicz",
+      "dr hab. Piotr Niemcewicz, prof. UMK",
+      "prof. dr hab. Justyna Olszewska-Świetlik",
+      "dr Piotr Owczarek",
+      "dr Sylwia Siemianowska",
+      "dr Barbara Stolpiak",
+      "dr Marek Wawrzkiewicz",
+      "dr Mariusz Wrona",
+      "dr Agnieszka Zambrzycka",
+      "dr Anna Zaręba",
+    ],
   },
 ];
